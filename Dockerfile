@@ -1,4 +1,6 @@
-FROM alpine:latest
+ARG VERSION=latest
+
+FROM alpine:${VERSION}
 
 RUN apk add --no-cache bash vim
 
