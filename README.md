@@ -16,4 +16,4 @@ Containers provide a clean, disposable environment, making them ideal for experi
 
 2. Install `podman`
 
-3. <code>podman run -it --name pure-bash docker.io/library/ubuntu /bin/bash</code>
+3. <code>podman run -it --name pure-bash docker.io/library/ubuntu:latest /bin/bash</code>
