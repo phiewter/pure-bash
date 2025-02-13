@@ -1,6 +1,6 @@
 # Parameter Expansion
 
-The `'$'` character introcues parameter expansion, command substitution, or arithmetic expansion. The parameters name or symbol to be expanded may be enclosed in braces, which are optional but serve to protect the variable to be expanded from characters immediately following it which could be interpreted as part of the name.
+The `'$'` character introduces parameter expansion, command substitution, or arithmetic expansion. The parameters name or symbol to be expanded may be enclosed in braces, which are optional but serve to protect the variable to be expanded from characters immediately following it which could be interpreted as part of the name.
 
 When braces are used, the matching ending brace is the first '}' not escaped by a backslash or within a quoted string, and not within an embedded arithmetic expansion, command substitution, or parameter expansion.
 
