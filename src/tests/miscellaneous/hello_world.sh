@@ -1,11 +1,11 @@
 #!/bin/bash
 
-source ../../exercises/miscellaneous/say_hello.sh
+source ../../exercises/miscellaneous/hello_world.sh
 
-output=$(say_hello World);
+output=$(hello_world);
 
 if [[ "$output" == "Hello, World!" ]]; then
-  echo "OK";
+  echo "OK: '$output'";
   exit 0;
 else
   echo "FAILED: Expected 'Hello, World!', got '$output'";
