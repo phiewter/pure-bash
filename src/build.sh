@@ -10,9 +10,7 @@ TITLE="$2"
 REMARK="$3"
 DESCRIPTION="$4"
 
-OUTPUT_SCRIPT="${NAME}.sh"
-
-cat > "$OUTPUT_SCRIPT" <<EOF
+cat > "${NAME}.sh" <<EOF
 #!/bin/bash
 
 # Created:	$(date +"%d/%m/%Y")
@@ -26,7 +24,7 @@ cat > "$OUTPUT_SCRIPT" <<EOF
 
 EOF
 
-chmod +x "$OUTPUT_SCRIPT"
+chmod +x "${NAME}"
 
-echo "Script '$OUTPUT_SCRIPT' has been created."
+echo "Script '${NAME}.sh' has been created."
 exit 0
